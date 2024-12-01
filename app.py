@@ -21,7 +21,7 @@ MW, EN, RC = element_properties
 Ratio = st.number_input('Ratio', value=0.0, format="%.3f", step=0.001)  # 比例
 Zn2_plus = st.number_input('Zn2+', value=2.0,  step=0.5)  # Zn2+浓度
 st.write('Unit: mol/L')  # Zn2+的单位
-Mn2_plus = st.number_input('Mn2+', value=0.2, step=0.1)  # Mn2+浓度
+Mn2_plus = st.number_input('Mn2+', value=0.2, step=0.05)  # Mn2+浓度
 st.write('Unit: mol/L')  # Mn2+的单位
 Potential_Windows = st.number_input('Potential Windows', value=0.8,  step=0.05)  # 电压窗口
 st.write('Unit: V')  # 电压窗口的单位
